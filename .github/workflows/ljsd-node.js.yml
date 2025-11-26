@@ -144,5 +144,5 @@ jobs:
     steps: 
       - name: Check workflow status 
         run: | 
-          echo "Pipe line execution comp leted!" 
-          echo "Dep loy status: ${{ needs.dep loy.result }}" 
+          echo "Pipeline execution completed!" 
+          echo "Deploy status: ${{ needs.deploy.result }}" 
